@@ -83,9 +83,10 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
 
-    <lineageos.preference.LineageSystemSettingSwitchPreference
-        android:key="swipe_to_screenshot"
+    <Preference
+        android:key="gesture_swipe_to_screenshot_summary"
         android:title="@string/swipe_to_screenshot_gesture_title"
-        android:summary="@string/swipe_to_screenshot_gesture_summary"
-        android:defaultValue="false" />
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotGesturePreferenceController" />
+
 </PreferenceScreen>
