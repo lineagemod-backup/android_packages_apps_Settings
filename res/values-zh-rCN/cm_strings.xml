@@ -308,4 +308,6 @@
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接到上游连接</string>
     <string name="network_settings_shortcut_title">移动网络</string>
+    <string name="swipe_to_screenshot_gesture_title">滑动屏幕截图</string>
+    <string name="swipe_to_screenshot_gesture_summary">用三根手指滑动屏幕截图</string>
 </resources>
